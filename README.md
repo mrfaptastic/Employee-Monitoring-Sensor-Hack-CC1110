@@ -107,7 +107,7 @@ IR temperature:	27.07
 ![no covid](pictures/picture_10.jpg)
 
 
-## Conculusion
+## Conclusion
 * Completely pointless but cool hack. Can use as a IR temperature sensor. 
 * The kettle after boiling always shows a symptom Covid-19 according to this advanced logic that determines what to display on the LED Matrix Panel: 
 ```
