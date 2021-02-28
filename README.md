@@ -2,7 +2,7 @@
 
 # [TL/DR](https://www.urbandictionary.com/define.php?term=tl%3Bdr)
 
- - Prior to Wuhan-virus pandemic, a certain organisation thought it would be a good idea to stick sensors under employees desks to monitor office-space ‘desk  utilisation’. **These sensors pointed at your  groin... **
+ - Prior to Wuhan-virus pandemic, a certain organisation thought it would be a good idea to stick sensors under employees desks to monitor office-space ‘desk  utilisation’. **These sensors pointed at the groin...**
  - Management later 'abandoned' the monitoring, and these sensors were destined to become e-waste.
  - A sensor was salvaged prior to the office being closed forever and reverse engineered, turning its nefarious existence into a useful one – that being **a Covid-19 symptom detector (high temp)**.
  - The reverse-engineering was only possible due to the unabated boredom caused by the pandemic ‘stay at home’ lockdown(s).
