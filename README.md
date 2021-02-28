@@ -57,6 +57,7 @@ The next step was to go all-in and write a complete firmware from scratch that w
 However this raised the problem in that:
 * This transmitter uses a proprietary radio ('RF') that is not able to be 'heard' unless you have a corresponding chip of the same type! It's not WiFi!
 * Therefore, even if a working custom firmware was written, there was no means to listen to the transmitted sensor output...
+
 ![Oh, we have a problem. I can't hear you.](pictures/picture_6.jpg)
 
 ## So.... creating a sensor data receiver 
