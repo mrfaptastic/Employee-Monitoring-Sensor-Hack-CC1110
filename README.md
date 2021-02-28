@@ -70,7 +70,7 @@ However this raised the problem in that:
 ## Finishing it all up
 So, now there were two pieces that needed to be completed:
 1) Firmware for the hacked sensor i.e. Creating software that basically 'reads' the sensor values every X seconds and transmits. FYI - The code [can be found here](https://github.com/mrfaptastic/Employee-Monitoring-Sensor-Hack-CC1110/blob/main/cc1110-sensor-fw/sensor-main.c), but is absolutely useless unless you happen to find one of these sensors in a local bin...
-2) Firmware for the custom data receiver which I **also** connected to a large LED Matrix Panel because WHY NOT! This used another software library I'd written [display stuff on a large LED Matrix Panel](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA)!
+2) Firmware for the custom data receiver which I **also** connected to a large LED Matrix Panel because WHY NOT! This used another software library I'd written [to display stuff on a large LED Matrix Panel](https://github.com/mrfaptastic/ESP32-HUB75-MatrixPanel-I2S-DMA)!
 
 ![The cycle of life](pictures/picture_8.jpg)
 
@@ -109,7 +109,7 @@ IR temperature:	27.07
 
 ## Conclusion
 * Completely pointless but cool hack. Can use as a IR temperature sensor. 
-* The kettle after boiling always shows a symptom Covid-19 according to this advanced logic that determines what to display on the LED Matrix Panel: 
+* The kettle after boiling always shows symptoms of Covid-19 according to the advanced logic that determines what to display on the LED Matrix Panel: 
 ```
 if (temp > 37.5) { covid = true; }
 ```
