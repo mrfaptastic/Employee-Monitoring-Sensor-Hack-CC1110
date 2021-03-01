@@ -199,8 +199,8 @@ void main(void)
 				//
 				// Clean up the buffer - flush and set everything to null.
 				//
-				// This HANGS the CC1110 device when compiling using SDCC!
-				//
+				// Make sure XRAM memory sections are provided as part of SDCC compile otherwise this memset xdata stuff will cause the program to do super weird failures.
+				// --code-loc 0x000 --code-size 0x8000 --xram-loc 0xf000 --xram-size 0x300 --iram-size 0x100 --model-small --opt-code-speed sensor-main.c
 				memset(packet, '\0', sizeof(packet));	
 				memcpy(packet, packet_header, sizeof(packet_header)/sizeof(uint8)); // Header				
 	
